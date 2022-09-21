@@ -7,10 +7,6 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "@type" : "sc:Manifest",
-    "@id" : "https://irinaschubert.github.io/iiif-test/manifests/myFirstManifest",
-    "label" : "Vermeer Collection"
-  }, {
-    "@type" : "sc:Manifest",
     "@id" : "https://irinaschubert.github.io/iiif-test/manifests/manifest.json",
     "label" : "Vermeer Collection"
   } ]

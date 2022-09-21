@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://irinaschubert.github.io/iiif-test/manifests/manifest2.json",
     "label" : "My First Canvas"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://irinaschubert.github.io/iiif-test/manifests/myFirstManifest",
+    "label" : "Vermeer Collection"
   } ]
 }

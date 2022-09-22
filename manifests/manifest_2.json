@@ -3,6 +3,11 @@
   "@id" : "https://irinaschubert.github.io/iiif-test/manifests/manifest_2.json",
   "@type" : "sc:Manifest",
   "label" : "Vermeer Collection",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/22705235/cd9a1aaab7ac7698d99156dedab036ef/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : "Created",
     "value" : [ {
@@ -63,6 +68,78 @@
           "width" : 4226
         },
         "on" : "http://553136f3-789e-4f5b-803c-b8a15efb7a38"
+      } ],
+      "related" : "",
+      "otherContent" : [ {
+        "@id" : "https://irinaschubert.github.io/iiif-test/annotations/58e8c1cfb208046c8d37e8411c292f62.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My first annotations for the milkmaid"
+      } ]
+    }, {
+      "@id" : "http://cbdfbbca-0337-4fb6-a828-962c5556743e",
+      "@type" : "sc:Canvas",
+      "label" : "The Milk Jug",
+      "height" : 627,
+      "width" : 800,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3f838a6b-0554-4762-a50f-bc3beb3dc5f2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/sk-a-2344-part/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/sk-a-2344-part",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 627,
+          "width" : 800
+        },
+        "on" : "http://cbdfbbca-0337-4fb6-a828-962c5556743e"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://867f36f2-de65-4c2c-a450-4f5ca45bf978",
+      "@type" : "sc:Canvas",
+      "label" : "The Milkmaid with a Second Jug!",
+      "height" : 4762,
+      "width" : 4226,
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "label" : "The Milk Jug",
+          "@id" : "https://irinaschubert.github.io/iiif-test/images/SK-A-2344_part/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://irinaschubert.github.io/iiif-test/images/SK-A-2344_part",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 627,
+          "width" : 800
+        },
+        "on" : "http://867f36f2-de65-4c2c-a450-4f5ca45bf978#xywh=428,2335,800,627"
+      }, {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/sk-a-2344/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/sk-a-2344",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          },
+          "height" : 4762,
+          "width" : 4226
+        },
+        "on" : "http://867f36f2-de65-4c2c-a450-4f5ca45bf978"
       } ],
       "related" : ""
     }, {
@@ -160,7 +237,7 @@
     "@id" : "http://example.org/iiif/book1/range/chapter1",
     "@type" : "sc:Range",
     "label" : "Chapter 1",
-    "canvases" : [ "http://821c9cf4-64f4-4f39-84cd-82f9fc49c285", "http://a06eb430-f21a-43e5-9301-dcbc4a080248" ]
+    "canvases" : [ "http://cbdfbbca-0337-4fb6-a828-962c5556743e", "http://821c9cf4-64f4-4f39-84cd-82f9fc49c285", "http://a06eb430-f21a-43e5-9301-dcbc4a080248" ]
   }, {
     "@id" : "http://example.org/iiif/book1/range/outro",
     "@type" : "sc:Range",

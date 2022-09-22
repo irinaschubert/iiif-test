@@ -1,0 +1,92 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "food",
+      "@type" : "oa:Tag",
+      "chars" : "food"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "milk",
+      "@type" : "oa:Tag",
+      "chars" : "milk"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "jug",
+      "@type" : "oa:Tag",
+      "chars" : "jug"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Milk Jug",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Milk Jug</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/22705235",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-09-22T08:29:15",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1663835355443",
+    "dcterms:modified" : "2022-09-22T08:29:15",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://irinaschubert.github.io/iiif-test/manifests/manifest_2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1128,2286,709,673"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1127.78972,2286.11608h354.41199v0h354.41199v336.2883v336.2883h-354.41199h-354.41199v-336.2883z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_035f155a-c59b-4f10-98b8-f9ee2e24ada9\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://553136f3-789e-4f5b-803c-b8a15efb7a38"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "bread",
+      "@type" : "oa:Tag",
+      "chars" : "bread"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "food",
+      "@type" : "oa:Tag",
+      "chars" : "food"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Bread",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Bread</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/22705235",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-09-22T08:29:42",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1663835382747",
+    "dcterms:modified" : "2022-09-22T08:29:42",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://irinaschubert.github.io/iiif-test/manifests/manifest_2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=512,3029,1728,478"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M511.58421,3029.18744h864.14082v0h864.14082v238.87345v238.87345h-864.14082h-864.14082v-238.87345z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_4be7c043-ca6d-4c02-ab87-54d8d2a5f43e\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://553136f3-789e-4f5b-803c-b8a15efb7a38"
+    } ]
+  } ],
+  "@id" : "https://irinaschubert.github.io/iiif-test/annotations/58e8c1cfb208046c8d37e8411c292f62.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}

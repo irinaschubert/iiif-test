@@ -104,30 +104,31 @@
     }, {
       "@id" : "http://867f36f2-de65-4c2c-a450-4f5ca45bf978",
       "@type" : "sc:Canvas",
-      "label" : "The Milkmaid with a Second Jug!",
+      "label" : "The Milkmaid with a Butterfly!",
       "height" : 4762,
       "width" : 4226,
       "images" : [ {
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "label" : "The Milk Jug",
-          "@id" : "https://irinaschubert.github.io/iiif-test/images/SK-A-2344_part/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
+          "label" : "Butterfly",
+          "@id" : "https://iiif-test.github.io/test4/images/butterfly/full/full/0/default.jpg",
           "format" : "image/jpeg",
+          "@type" : "dctypes:Image",
+          "width" : 132,
+          "height" : 146,
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://irinaschubert.github.io/iiif-test/images/SK-A-2344_part",
+            "id" : "https://iiif-test.github.io/test4/images/butterfly",
             "profile" : "http://iiif.io/api/image/2/level0.json"
-          },
-          "height" : 627,
-          "width" : 800
+          }
         },
-        "on" : "http://867f36f2-de65-4c2c-a450-4f5ca45bf978#xywh=428,2335,600,600"
+        "on" : "http://867f36f2-de65-4c2c-a450-4f5ca45bf978#xywh=1711,1248,64,64"
       }, {
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
+          "label" : "Background",
           "@id" : "https://iiif.archivelab.org/iiif/sk-a-2344/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
@@ -197,7 +198,7 @@
     }, {
       "@id" : "http://5afa7fff-b240-4657-8e1a-349edbdfa80e",
       "@type" : "sc:Canvas",
-      "label" : "View of Houses in Delft, Known as ‘The Little Street’",
+      "label" : "View of Houses in Delft, Known as 'The Little Street'",
       "height" : 6374,
       "width" : 5196,
       "images" : [ {

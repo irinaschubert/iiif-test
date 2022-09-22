@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://irinaschubert.github.io/iiif-test/annotations/58e8c1cfb208046c8d37e8411c292f62.json" ],
+  "@id" : "https://irinaschubert.github.io/iiif-test/annotations/collection.json",
+  "label" : "All annotations loaded in irinaschubert/iiif-test project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}

@@ -123,7 +123,7 @@
           "height" : 627,
           "width" : 800
         },
-        "on" : "http://867f36f2-de65-4c2c-a450-4f5ca45bf978#xywh=428,2335,800,627"
+        "on" : "http://867f36f2-de65-4c2c-a450-4f5ca45bf978#xywh=428,2335,600,600"
       }, {
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",

@@ -111,23 +111,6 @@
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "label" : "Background",
-          "@id" : "https://iiif.archivelab.org/iiif/sk-a-2344/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archivelab.org/iiif/sk-a-2344",
-            "profile" : "http://iiif.io/api/image/2/level2.json"
-          },
-          "height" : 4762,
-          "width" : 4226
-        },
-        "on" : "http://867f36f2-de65-4c2c-a450-4f5ca45bf978"
-      }, {
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
           "label" : "Butterfly",
           "@id" : "https://iiif-test.github.io/test4/images/butterfly/full/full/0/default.jpg",
           "format" : "image/jpeg",
@@ -141,6 +124,23 @@
           }
         },
         "on" : "http://867f36f2-de65-4c2c-a450-4f5ca45bf978#xywh=1711,1248,64,64"
+      }, {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "label" : "Background",
+          "@id" : "https://iiif.archivelab.org/iiif/sk-a-2344/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/sk-a-2344",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          },
+          "height" : 4762,
+          "width" : 4226
+        },
+        "on" : "http://867f36f2-de65-4c2c-a450-4f5ca45bf978"
       } ],
       "related" : ""
     }, {
